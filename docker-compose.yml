@@ -1,18 +1,8 @@
+version: '3.8'
 services:
   profile-analyzer:
-    build: .
-    command: uvicorn apps.profile_analyzer.main:app --host 0.0.0.0 --port 8001
+    build: ./profile-analyzer
+    ports: ['8001:8000']
   job-scraper:
-    build: .
-    command: uvicorn apps.job_scraper.main:app --host 0.0.0.0 --port 8002
-  resume-tailor:
-    build: .
-    command: uvicorn apps.resume_tailor.main:app --host 0.0.0.0 --port 8003
-  application-automator:
-    build: .
-    command: uvicorn apps.application_automator.main:app --host 0.0.0.0 --port 8004
-
-  nginx:
-    image: nginx
-    ports:
-      - "8080:80"
+    build: ./job-scraper
+    ports: ['8002:8000']

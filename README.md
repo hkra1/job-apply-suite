@@ -1,16 +1,11 @@
 # Job Apply Suite
 
-Minimal, secure monorepo for profile analysis, job scraping, resume tailoring, and automated applications.
+Modular open-source suite for ethical job application automation.
 
-## Features
-- Profile analysis from resumes & public links
-- Job scraping with table outputs
-- Resume tailoring
-- End-to-end application automation (with safety)
+## Repos
+- [profile-analyzer](https://github.com/hkra1/profile-analyzer)
+- [job-scraper](https://github.com/hkra1/job-scraper)
+- [resume-tailor](https://github.com/hkra1/resume-tailor)
+- [application-automator](https://github.com/hkra1/application-automator)
 
-## Quick Start
-1. `pip install -e .`
-2. `playwright install chromium`
-3. Run individual apps or `docker-compose up`
-
-**Ethical Use Only**: Respect terms, add delays, human oversight.
+Clone all or use individually.
