@@ -1,20 +1,4 @@
 [project]
 name = "job-apply-suite"
 version = "0.1.0"
-description = "End-to-end job application automation suite"
-requires-python = ">=3.10"
-dependencies = [
-    "fastapi",
-    "uvicorn[standard]",
-    "python-jobspy",
-    "playwright",
-    "pandas",
-    "python-docx",
-    "pdfplumber",
-    "pydantic",
-    "httpx",
-    "slowapi",
-]
-
-[tool.setuptools.packages.find]
-where = ["apps"]
+dependencies = ["fastapi", "uvicorn", "python-jobspy", "playwright", "pandas", "python-docx", "pdfplumber"]

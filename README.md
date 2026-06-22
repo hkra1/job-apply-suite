@@ -1,11 +1,18 @@
 # Job Apply Suite
 
-Modular open-source suite for ethical job application automation.
+End-to-end job application automation suite.
 
-## Repos
-- [profile-analyzer](https://github.com/hkra1/profile-analyzer)
-- [job-scraper](https://github.com/hkra1/job-scraper)
-- [resume-tailor](https://github.com/hkra1/resume-tailor)
-- [application-automator](https://github.com/hkra1/application-automator)
+## Features
+- Profile analysis
+- Job scraping with table outputs
+- Resume tailoring
+- Application automation
 
-Clone all or use individually.
+## Setup
+pip install -e .
+playwright install chromium
+
+## Next TODOs
+- Add orchestration script
+- Enhance stealth and proxies
+- Add tests
