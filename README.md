@@ -1,13 +1,11 @@
 # Job Apply Suite
 
-Orchestrator for the full pipeline: Profile → Scrape → Tailor → Apply.
+Monorepo for end-to-end job application automation.
 
-**Open source, secure, minimal.**
+## Structure
+- apps/profile-analyzer/
+- apps/job-scraper/
+- apps/resume-tailor/
+- apps/application-automator/
 
-## Repos
-- [profile-analyzer](https://github.com/hkra1/profile-analyzer)
-- [job-scraper](https://github.com/hkra1/job-scraper)
-- [resume-tailor](https://github.com/hkra1/resume-tailor)
-- [application-automator](https://github.com/hkra1/application-automator)
-
-Docker Compose coming soon.
+Clean minimal FastAPI APIs.
