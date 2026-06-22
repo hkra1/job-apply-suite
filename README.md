@@ -1,10 +1,9 @@
-# Job Apply Suite - Monorepo
+# Job Apply Suite
 
-End-to-end job application automation with minimal effort for deserving candidates.
+End-to-end open source job application automation monorepo.
 
 ## Quick Start
-```bash
-git clone https://github.com/hkra1/job-apply-suite.git
-cd job-apply-suite
-pip install -e .
-```
+1. git clone https://github.com/hkra1/job-apply-suite.git
+2. cd job-apply-suite
+3. pip install -e .
+4. uvicorn apps.job_scraper.main:app --reload

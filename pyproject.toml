@@ -1,14 +1,4 @@
 [project]
 name = "job-apply-suite"
 version = "0.1.0"
-requires-python = ">=3.11"
-dependencies = [
-    "fastapi",
-    "uvicorn",
-    "pydantic",
-    "python-jobspy",
-    "playwright",
-    "pandas",
-    "python-docx",
-    "pdfplumber",
-]
+dependencies = ["fastapi", "uvicorn", "python-jobspy", "playwright", "pandas", "python-docx", "pdfplumber", "pydantic"]
