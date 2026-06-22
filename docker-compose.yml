@@ -1,5 +1,6 @@
-version: '3.8'
 services:
   profile-analyzer:
-    build: ./profile-analyzer
-  # Add others...
+    build: ./apps/profile-analyzer
+  job-scraper:
+    build: ./apps/job-scraper
+  # etc.

@@ -1,11 +1,10 @@
-# Job Apply Suite
+# Job Apply Suite - Monorepo
 
-Monorepo for end-to-end job application automation.
+End-to-end job application automation with minimal effort for deserving candidates.
 
-## Structure
-- apps/profile-analyzer/
-- apps/job-scraper/
-- apps/resume-tailor/
-- apps/application-automator/
-
-Clean minimal FastAPI APIs.
+## Quick Start
+```bash
+git clone https://github.com/hkra1/job-apply-suite.git
+cd job-apply-suite
+pip install -e .
+```
